@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed30cdce-7161-42db-bf31-31e773f9e6e2" name="Default Changelist" comment="" />
+    <list default="true" id="ed30cdce-7161-42db-bf31-31e773f9e6e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataOps/clinvar.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataOps/clinvar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataOps/fileOps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataOps/gnomad.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataOps/gnomad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataOps/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataOps/provean.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataOps/provean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/gnomad.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/provean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinvar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/responses.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,18 +49,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oguzhan\Desktop\Tasarim Dersi\genesis-master\DataOps" />
+      <recent name="C:\Users\oguzhan\Desktop\Tasarim Dersi\genesis-master\Templates" />
+      <recent name="C:\Users\oguzhan\Desktop\genesis-master\DataOps" />
+      <recent name="C:\Users\oguzhan\Desktop\genesis-master" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\oguzhan\Desktop\genesis-master" />
       <recent name="C:\Users\oguzhan\Desktop\genesis-master\static" />
       <recent name="C:\Users\oguzhan\Desktop\genesis-master\Templates" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\oguzhan\Desktop\Tasarim Dersi\genesis-master\Templates" />
-      <recent name="C:\Users\oguzhan\Desktop\genesis-master\DataOps" />
-      <recent name="C:\Users\oguzhan\Desktop\genesis-master" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.varsome">
+  <component name="RunManager" selected="Python.gnomad">
     <configuration name="clinvar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="genesis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="forms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="deneme" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="genesis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,11 +91,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataOps" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forms.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataOps/deneme.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="varsome" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="provean" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="genesis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,7 +159,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataOps/varsome.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataOps/provean.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.varsome" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.clinvar" />
-        <item itemvalue="Python.forms" />
         <item itemvalue="Python.gnomad" />
+        <item itemvalue="Python.clinvar" />
+        <item itemvalue="Python.provean" />
+        <item itemvalue="Python.deneme" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -205,49 +221,72 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576769387227" />
-    <state width="1515" height="207" key="GridCell.Tab.0.bottom" timestamp="1577130241526">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1577217537661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="183" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575915202148" />
-    <state width="1515" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577130241526" />
-    <state width="1515" height="207" key="GridCell.Tab.0.center" timestamp="1577130241525">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577217537661" />
+    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1577217537661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="183" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575915202146" />
-    <state width="1515" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577130241525" />
-    <state width="1515" height="207" key="GridCell.Tab.0.left" timestamp="1577130241525">
+    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577217537661" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1577217537661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="183" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575915202146" />
-    <state width="1515" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577130241525" />
-    <state width="1515" height="207" key="GridCell.Tab.0.right" timestamp="1577130241525">
+    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577217537661" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1577217537661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="183" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575915202147" />
-    <state width="1515" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577130241525" />
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1576621312048">
+    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577217537661" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1577213629590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576621312048" />
-    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1576621312048">
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577213629590" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1577213629590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576621312048" />
-    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1576621312048">
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577213629590" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1577213629590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576621312048" />
-    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1576621312048">
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577213629590" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1577213629590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576621312048" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577213629590" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1576580216459">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576580216459" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1577195077760">
+    <state x="507" y="146" key="VcsDiffUtil.ChangesDialog" timestamp="1577219188589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577195077760" />
+    <state x="507" y="146" key="VcsDiffUtil.ChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577219188589" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577213325562">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1577213325562" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1577213325562">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1577213325562" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1577201617594">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577201617594" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577209372336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1577209372336" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="soup" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

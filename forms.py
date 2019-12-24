@@ -10,14 +10,8 @@ class InputForm(FlaskForm):
     provean_id = StringField('provean_data', validators=[DataRequired(), Length(min=2, max=20)])
     gnomad_id = StringField('gnomad_data', validators=[DataRequired(), Length(min=2, max=20)])
 
-class ClinvarForm(FlaskForm):
-    clinvar = clinvar.get_values()
-
-class ProveanForm(FlaskForm):
-    provean = provean._get_all_response_jobID()
-
-class GnomadForm(FlaskForm):
-    gnomad = gnomad.get_values()
+class ResultForm(FlaskForm):
+    a= 1
 
 class RegistrationForm(FlaskForm):
     username = StringField('Username',

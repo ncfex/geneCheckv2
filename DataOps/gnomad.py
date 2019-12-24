@@ -1,35 +1,34 @@
 import urllib3
+from bs4 import BeautifulSoup
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+import requests
 
-def get_values() -> str:
-    unparsed_html = _get_all_response()
+class gnomAD:
+    gnomad_input = 'rs11571833'
 
-    return unparsed_html
+    def request_gnomad(self, url):
+        try:
+            response = requests.get(url, verify=False)
+            return response
+        except:
+            print("=======================HATA====================")
+            raise Exception
+            print("===============================================")
 
-def get_response_gnomad(url):
-    import requests
-    try:
-        response = requests.get(url, verify=False)
-        return response
-    except:
-        print("=======================HATA====================")
-        raise Exception
-        print("===============================================")
+    def get_response(self):
 
-def _get_all_response() -> None:
+        url = 'https://gnomad.broadinstitute.org/variant/'+ self.gnomad_input +'?dataset=gnomad_r2_1'
+        response = self.request_gnomad(url)
 
-    gnomad_data = '13-32906729-A-C'
-    url = 'https://gnomad.broadinstitute.org/variant/'+ gnomad_data +'?dataset=gnomad_r2_1'
-    response = get_response_gnomad(url)
+        return response.content
 
-    return response.text
+    def parse_gnomAD(self):
+        soup = BeautifulSoup(self.get_response(), 'html.parser')
+        print(soup.prettify())
+        #prov_score = interp[34].text
 
-if __name__ == "__main__":
-
-    gnomad_data = '13-32906729-A-C'
-
-    gnomad_sonuc = get_values()
-
-
+g1 = gnomAD()
+g1.parse_gnomAD()
 
 

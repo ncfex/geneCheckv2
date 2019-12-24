@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block content %}
+<div style="width : 100%;margin-top : 2%">
+
+<div style="float : left; width : 30%">
+<form method="POST">
+    <header>ClinVar</header>
+    <input name="text">
+    <input type="submit">
+</form>
+<form method="POST">
+    <header>Provean</header>
+    <input name="text" value="">
+    <input type="submit">
+</form>
+<form method="POST">
+    <header>Gnomad</header>
+    <input name="text">
+    <input type="submit">
+</form>
+</div>
+<div  style="width: 60%;
+    margin-left: 70%">
+    <form>
+    <label for="clinvar">Clinvar Result : </label>
+        <label for="clinvar">PARSED RESULT clinvar</label>
+    </form>
+    <form>
+    <label for="clinvar">Provean Result : </label>
+        <label for="clinvar">PARSED RESULT provean </label>
+    </form>
+    <form>
+    <label for="clinvar">gnomAD Result : </label>
+        <label for="clinvar">PARSED RESULT gnomAD</label>
+    </form>
+</div>
+
+</div>
+{% endblock content %}

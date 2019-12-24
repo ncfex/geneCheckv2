@@ -1,0 +1,27 @@
+to: mutationtaster
+name: Mehmet K.
+transcript: ENST00000379370
+snippets refers to: gDNA
+first wild type base: 28669
+last wild type base: 28672
+
+to: polyphen
+name: Hasan K.
+protein: P41567
+position: 59
+AA1: L
+AA2: P
+
+to: mutationtaster
+name: Mehmet K.
+transcript: ENST00000379370
+snippets refers to: gDNA
+first wild type base: 28669
+last wild type base: 28672
+
+to: polyphen
+name: Hasan K.
+protein: P41567
+position: 59
+AA1: L
+AA2: P

@@ -12,7 +12,7 @@ def home():
     return render_template('home.html', title = 'Input', form= form)
 
 @app.route("/result", methods=['GET', 'POST'])
-def clinvar():
+def result():
     form = ResultForm()
     return render_template('result.html', title = 'Result', form= form)
 

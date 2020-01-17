@@ -9,7 +9,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 class Provean:
 
-    provean_input = '22,30163533,A,C'
+    provean_input = '17,41249386,T,C'
     provean_response = "none"
 
     #TO GET JOB ID

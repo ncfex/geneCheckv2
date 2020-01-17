@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+<div>
+    <h1>Provean Results</h1>
+    <form>
+        <p> Provean Score / Prediction : {{form.provean_sco}} / {{form.provean_pre}} </p>
+        <p> SIFT Score / Prediction : {{form.sift_sco}} / {{form.sift_pre}} </p>
+    </form>
+</div>
+{% endblock content %}

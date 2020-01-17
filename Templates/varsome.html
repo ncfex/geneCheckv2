@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>VarSome Result</h1>
+<form>
+    <p> Varsome ACMG VERDICT : {{form.ACMG_verdict}} </p>
+    <p> Varsome Clinvar VERDICT : {{form.clinvar_verdict}} </p>
+    <p> Varsome DANN SCORE : {{form.DANN_score}} </p>
+    <p> Varsome GERP SCORE : {{form.GERP_score}} </p>
+    <p> Varsome gnomAD Frequence : {{form.gnomAD_freq}} </p>
+</form>
+{% endblock content %}

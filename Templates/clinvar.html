@@ -1,7 +1,9 @@
 {% extends "layout.html" %}
 {% block content %}
-<h1>Clinvar Result</h1>
-<form>
-    {{form.clinvar}}
-</form>
+<div>
+    <h1>Clinvar Results</h1>
+    <form>
+        <p> Clinvar Verdict : {{form.clinvar}}</p>
+    </form>
+</div>
 {% endblock content %}
